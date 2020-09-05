@@ -20,4 +20,4 @@ aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
 aws configure set region $AWS_DEFAULT_REGION
 
 # Update service -> this line of code is where everything is deployed to aws
-aws ecs update-service --cluster CICD-Cluster2 --service CICD-Container2-service --force-new-deployment
+aws ecs update-service --cluster CICD-Cluster3 --service CICD-Cluster2-service --force-new-deployment
